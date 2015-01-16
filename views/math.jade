@@ -1,0 +1,19 @@
+extend layout
+
+block body
+  
+  h3 Add
+  input#x(type="text")
+  | +
+  input#y(type="text")
+  | =
+  span#total(style="padding:2px;display:inline-block;min-height:16px;border:1px solid #000; min-width: 20px;margin: 8px 8px 0 8px;")
+  button#addbtn Add
+
+  hr
+    
+  h3 Sum Array
+  input#array(type="text")
+  | =
+  span#sum(style="padding:2px;display:inline-block;min-height:16px;border:1px solid #000; min-width: 20px;margin: 8px 8px 0 8px;")
+  button#sumbtn Sum

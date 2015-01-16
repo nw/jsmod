@@ -1,0 +1,11 @@
+doctype html
+html
+  head
+    title= capitalize(name)
+    script(src="/js/common.js")
+  body
+    #container
+      h1= capitalize(name)
+      #content
+       block body
+    script(src="/js/"+name+'.js')
